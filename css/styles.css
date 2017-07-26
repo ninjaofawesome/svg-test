@@ -1,0 +1,18 @@
+.title {
+  text-align: center; }
+
+.svg-test {
+  background-image: url("https://res.cloudinary.com/ninjaofawesome/image/upload/v1501072154/hannah/happy.svg");
+  background-size: 100%;
+  height: 100px;
+  width: 100px; }
+  .svg-test--small {
+    background-image: url("https://res.cloudinary.com/ninjaofawesome/image/upload/v1501072154/hannah/happy.svg");
+    background-size: 100%;
+    height: 50px;
+    width: 50px; }
+  .svg-test--large {
+    background-image: url("https://res.cloudinary.com/ninjaofawesome/image/upload/v1501072154/hannah/happy.svg");
+    background-size: 100%;
+    height: 150px;
+    width: 150px; }
