@@ -1,4 +1,5 @@
-.title {
+.title,
+.subtitle {
   text-align: center;
 }
 
@@ -17,6 +18,27 @@
 
   &--large {
     background-image: url('https://res.cloudinary.com/ninjaofawesome/image/upload/v1501072154/hannah/happy.svg');
+    background-size: 100%;
+    height: 150px;
+    width: 150px;
+  }
+}
+
+.svg-optimized {
+  background-image: url('https://res.cloudinary.com/ninjaofawesome/image/upload/v1501077569/optimised_rewhie.svg');
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+
+  &--small {
+    background-image: url('https://res.cloudinary.com/ninjaofawesome/image/upload/v1501077569/optimised_rewhie.svg');
+    background-size: 100%;
+    height: 50px;
+    width: 50px;
+  }
+
+  &--large {
+    background-image: url('https://res.cloudinary.com/ninjaofawesome/image/upload/v1501077569/optimised_rewhie.svg');
     background-size: 100%;
     height: 150px;
     width: 150px;
